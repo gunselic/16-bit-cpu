@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sat Jan 11 16:00:00 2026
+[*]
+[dumpfile] "cpu_wave.vcd"
+[dumpfile_mtime] "Sat Jan 11 16:00:00 2026"
+[dumpfile_size] 1000
+[savefile] "signals.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-12.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_cpu.
+[treeopen] tb_cpu.uut.
+[sst_width] 200
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@28
+tb_cpu.clk
+tb_cpu.reset
+@22
+tb_cpu.uut.pc_current[15:0]
+@28
+tb_cpu.uut.pc_next_final[15:0]
+@22
+tb_cpu.uut.instruction[31:0]
+tb_cpu.uut.alu_inst.result[15:0]
+@28
+tb_cpu.uut.branch_taken
+tb_cpu.uut.reg_write
+tb_cpu.uut.mem_write
+@22
+tb_cpu.uut.write_back_data[15:0]
+[pattern_trace] 1
+[pattern_trace] 0
